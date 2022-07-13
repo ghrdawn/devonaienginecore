@@ -16,7 +16,7 @@ def main():
     """This app enables you to develop faster!"""
 
     inp = st.text_area(
-        "Ask me for help:", placeholder="Type here", max_chars=2000, height=150
+        "Ask me for help:", max_chars=2000, height=150
     )
 
     response = None
